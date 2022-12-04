@@ -1,7 +1,8 @@
-import { testVals } from "./constants";
+import { dayOne } from "./dayOne";
+import { dayTwo } from "./dayTwo";
 
-function outputVal(value: string) {
-    console.log(value);
-}
+const inputDataDirectory: string = process.cwd()+'/src/input_data/';
 
-outputVal(testVals.one)
+// dayOne(inputDataDirectory+'day_one.txt');
+
+dayTwo(inputDataDirectory+'day_two.txt');
